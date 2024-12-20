@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+img {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+h1{
+    color: #8EB486;
+    margin-top: 90px;
+    font-size: 60px;
+    margin-left: 90px;
+    font-family: "Poppins", serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-radius: 20px;
+    border: none;
+    padding: 10px 24px;
+    font-size: 16px;
+    background-color: #F2613F;
+    margin-top :15px;
+    margin-left: 100px;
+    color: #FAF6E3;
+    font-family: "Poppins", serif;
+}
+.searchBox{
+    width: 100%;
+    padding: 12px 60px;
+    border-radius: 20px;
+    background-color: #FDF7F4;
+    box-shadow: inset 0px 0px 0px 4px #8EB486;
+   
+}
+.list{
+    background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?q=80&w=3276&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color:#493628;
+    font-family: "Poppins", serif;
+    flex-wrap:wrap;
+}
+.list-box{
+    position: absolute;
+    margin-left: 600px;
+    width: 50%;
+   margin-top: 30px;
+}
+p{
+    font-size: 20px;
+    font-family: "Poppins", serif;
+}
+.label{
+    font-size: 22px;
+    margin-left: 10px;
+}
+.calories{
+    font-size: 30px;
+    margin-left: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media all and (max-width:800px){
+    .list-box{
+        margin-left: 140px;
+        width: 70%
+    }
+    .searchBox{
+       padding: 12px 40px;
+    }
+    button{
+        padding: 10px 18px
+    }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    }
+    @media all and (max-width:500px){
+        h1{margin-top: 150px;
+            font-size: 35px;
+            margin-left: 20px;
+        }
+        .searchBox{
+            padding: 12px 20px;
+        }
+        button{
+            padding: 10px 12px;
+            margin-left: 30px;
+        }
+        .list-box{
+            margin-left: 70px;
+        }
+    }
