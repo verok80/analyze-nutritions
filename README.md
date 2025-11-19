@@ -26,6 +26,14 @@
 ## 🚀 Quick Start
 
 1. **Clone the repo**
-   ```bash
+   
    git clone https://github.com/yourusername/analyze-nutritions.git
    cd analyze-nutritions
+   
+2.**Install dependencies
+npm install
+
+
+3. Set up Edamam API
+4. Sign up for an API key at Edamam.com 
+5. Get your own APP_ID, APP_KEY, APP_URL from
