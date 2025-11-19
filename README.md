@@ -25,15 +25,19 @@
 
 ## 🚀 Quick Start
 
-1. **Clone the repo**
+1. Clone the repo**
    
    git clone https://github.com/yourusername/analyze-nutritions.git
+   
    cd analyze-nutritions
    
-2.**Install dependencies
-npm install
+2. Install dependencies
+
+   npm install
 
 
 3. Set up Edamam API
 4. Sign up for an API key at Edamam.com 
-5. Get your own APP_ID, APP_KEY, APP_URL from
+5. Get your own APP_ID, APP_KEY, APP_URL from https://api.edamam.com/api/nutrition-details'
+6. Run the App: npm start
+7. Access the App: Open your browser and navigate to "http://localhost:3000 "
